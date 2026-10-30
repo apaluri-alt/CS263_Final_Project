@@ -1,0 +1,27 @@
+Performance and Scalability of Python Concurrency Models: Threading, Multiprocessing and Async
+
+
+
+- Goal: Compare the performance and scalability of Python’s threading multiprocessing and asyncio models under different types of CPU-bound and I/O-bound workloads
+
+Workloads:
+
+- CPU-bound workloads (GIL-releasing vs GIL-holding operations)
+	- Data Pre-processing for ML model training (just preprocessing step)
+	- Scale for size of dataset and concurrency level
+- C-extensions 
+	- Scale for input size and concurrency level
+	- I/O workloads
+- Network api requests (testing purely server side request handling)
+	- Scale for number of requests and concurrency level (only server side)
+	- WSGI vs ASGI
+- Database queries
+	- Scale for number of queries and concurrency level
+
+
+
+
+- Each model (threading, multiprocessing, async) will have a framework for each workload test (2 x CPU-bound, 2 x I/O-bound = 4) = 3 x 4 = 12 total frameworks.
+
+- The framework will take inputs for size of data and the concurrency level to measure scalability and test for performance by measuring metrics: execution time, memory usage
+
