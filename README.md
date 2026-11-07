@@ -5,3 +5,7 @@ README will be updated as development coninues
   - https://www.kaggle.com/datasets/resulcaliskan/diamonds, License: Data files © Original Authors
   - https://www.kaggle.com/datasets/mathurinache/quakes, License: CC0: Public Domain
   - https://www.kaggle.com/datasets/arunjathari/bostonhousepricedata, License: CC0: Public Domain
+
+
+To implement:
+- baseline mode
