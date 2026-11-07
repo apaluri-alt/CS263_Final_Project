@@ -9,3 +9,5 @@ README will be updated as development coninues
 
 To implement:
 - baseline mode
+- requirements
+- machine specs that testing was done on
