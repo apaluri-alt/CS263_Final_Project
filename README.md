@@ -8,6 +8,6 @@ README will be updated as development coninues
 
 
 To implement:
-- baseline mode
-- requirements
-- machine specs that testing was done on
+- baseline mode - done
+- requirements - todo
+- machine specs that testing was done on -todo
