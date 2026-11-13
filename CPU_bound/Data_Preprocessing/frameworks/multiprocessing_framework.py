@@ -1,10 +1,15 @@
-"""Multiprocessing numeric preprocessing for the three datasets. Developed code using ChatGPT."""
+# Made with ChatGPT.
+"""Multiprocessing numeric preprocessing for the three datasets."""
 
 import csv
 import math
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 import time
+import sys
+
+# Share the project-wide sampler across workloads.
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from memory_usage import MemorySampler
 
 DATASETS = Path(__file__).resolve().parent.parent / "Datasets"
