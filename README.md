@@ -8,6 +8,7 @@ README will be updated as development coninues
 
 
 To implement:
-- baseline mode - done
-- requirements - todo
+- baseline mode and scale changes for data_preprocessing
+- readme for matrix multiplication
+- requirements.txt - todo
 - machine specs that testing was done on -todo
