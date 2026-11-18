@@ -1,4 +1,5 @@
-"""Run every benchmark with: python3 run_benchmarks.py Developed code using ChatGPT."""
+# Made with ChatGPT.
+"""Run every benchmark with: python3 run_benchmarks.py."""
 
 import asyncio
 import csv
